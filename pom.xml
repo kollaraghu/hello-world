@@ -28,6 +28,14 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-47-229-releases</name>
+        <url>http://13.59.40.199:8081/artifactory/ext-release-local</url>
+    </repository>
+</distributionManagement>
 
   <build>
     <plugins>
